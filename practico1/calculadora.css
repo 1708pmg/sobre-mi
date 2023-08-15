@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    position: center;
+}
+body { 
+    background-color: bisque;
+
+}
+.titulo {
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 42%;
+    position: relative;
+
+
+}
+.miCalculadora {
+    box-sizing: border-box;
+    font-family:calibri;
+    width:250px;
+    height:380px;
+    position:relative;
+    margin-top: 50px;
+    left: 40%;
+    background-position: center;
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    border-radius: 15px;
+  
+}
+
+input {
+        border: 5px solid rebeccapurple;
+        text-align:right;
+        padding: 15px;
+        margin: 20px;
+        width: 200px;
+        height: 1px;
+        align-items: center;
+}
+
+.cal{
+    border-bottom: rgb(177, 36, 20);
+    background-color:chartreuse;
+    text-align:center;
+    justify-content: center;
+    margin-left:20px;
+    margin-block-end: 5px;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bor {
+    border-bottom: aqua;
+    background-color: dodgerblue;
+    text-align:center;
+    justify-content: center;
+    margin-left: 20px;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.res {
+    border: 5px solid rebeccapurple;
+    background-color:yellow;
+    width: 225px;
+    height: 65px;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.op {
+    border: 5px solid rebeccapurple;
+    background-color: coral;
+    font-size:xx-large;
+    margin: 10px;
+    margin-left:35%;
+    width: 50px;
+    justify-content: center;
+    width: 50px;
+    cursor: pointer;
+   
+}
