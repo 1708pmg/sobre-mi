@@ -33,11 +33,18 @@ function Calcular(){
     document.getElementById("resultado").innerHTML = resultado;
 }
 //Si el resultado de una operación es demasiado grande o pequeño indica error//
-/*(resultado === Infinity{
-        resultado = "El resultado es demasiado grande";}
+// No lo puedo solucionar: pongo return, saco return, y la calculadora se traba,//
+// no calculacula, no borra, no hace nada //
+        /*if(resultado === Infinity{
+            resultado.textContent = "El resultado es demasiado grande";
+        }
         else if ( resultado === -Infinity){
-            resultado = "El resultado es demasiado pequeño";
+            resultado.textContent = "El resultado es demasiado pequeño";
+        }
+        else {
+            return;
         }*/
+
 function borrar(){
     document.getElementById("num1").value = "";
     document.getElementById("num2").value = "";
